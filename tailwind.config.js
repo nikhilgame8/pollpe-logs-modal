@@ -12,7 +12,22 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'themeCardBGBlue': '#F6F8FE',
+        'themeBGLightBlue': '#E4F1FE'
+      }
     },
+    container: {
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
+      center: true,
+    },
+
   },
   plugins: [],
 }
